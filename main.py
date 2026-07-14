@@ -25,7 +25,19 @@ else:
   
 print("ciaop")
 
+____________________________________________________________________________________________________________________________________________________________________________________________________
+import random
+
+caratteri = "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+lunghezza = int(input("Quanti caratteri deve avere sta password mbappé"))
+
+print(lunghezza)
+
+mbappé= ""
 
 
+for i in range(lunghezza):
+    mbappé += random.choice(caratteri) 
+print(mbappé)
 
 
