@@ -75,13 +75,13 @@
     <div class="meme-block" id="memeBlock">
       
       <p class="text_top" style="<!-- Consegna #3. Spostare le variabili in CSS -->">
-        <!-- Consegna #2. Inserire la variabile con il testo -->
+       {{testo_sopra}}<!-- Consegna #2. Inserire la variabile con il testo -->
       </p>
 
       <img class="meme" src="{{ url_for('serve_images', path=selected_image) }}" alt="{{ selected_image }}">
 
       <p class="text_bottom" style="<!-- Assignment #3. Moving the variables to CSS -->">
-        <!-- Consegna #2. Inserire la variabile con il testo -->
+        {{testo_sotto}}<!-- Consegna #2. Inserire la variabile con il testo -->
       </p>
     </div>
     {% endblock %}
