@@ -12,6 +12,10 @@ def index():
         selected_image = request.form.get('image-selector')
 
         # Consegna #2. Ricevere il testo
+                testo_sopra = request.form.get('image-selector')
+                testo_sotto = request.form.get('image-selector')
+
+
         
 
         # Consegna #3. Ricezione del posizionamento del testo
@@ -25,6 +29,8 @@ def index():
                                selected_image=selected_image, 
 
                                # Consegna #2. Visualizzazione del testo
+                               testo_sopra = testo_sopra 
+                               testo_sotto = testo_sotto 
                                
 
                                # Consegna #3. Visualizzazione del colore 
